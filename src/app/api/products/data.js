@@ -15,6 +15,6 @@ export const data=[
     },
     {
       name: 'techno P10',
-      id: 9,
+      id: 4,
     },
   ]

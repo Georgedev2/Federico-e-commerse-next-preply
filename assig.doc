@@ -1,0 +1,3 @@
+assignment
+handle error for /api/products API.
+display a matching UI for all API response gotten from /api/products/{any number} on the client
