@@ -13,8 +13,11 @@ function Search() {
       params.delete('query');
     }
     router.push(`?${params.toString()}`);
+    // router.re
   }
-
+  // host+ path+ queryString+ hash
+  // #
+// -> https://preply.com/edu/webdevelopment/classroom-v2/5330298?source=tutor-home#go
   return (
     <div>
       <input
