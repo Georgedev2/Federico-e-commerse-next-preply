@@ -1,5 +1,6 @@
-import { NextResponse } from 'next/server';
 
+import { NextResponse } from 'next/server';
+import db from '../../dbConfig'
 const data = [
   {
     name: 'Iphone 18pro max',
@@ -21,5 +22,6 @@ const data = [
 ];
 // ~>  http://localhost:3000/api/products
 export const GET = (req, res) => {
+// db.user
   return NextResponse.json(data);
 };

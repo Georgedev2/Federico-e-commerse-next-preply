@@ -2,5 +2,17 @@
 
 GET  http://localhost:3000/api/products
 
-
+###
 GET  http://localhost:3000/api/products/2
+
+
+###
+POST http://localhost:3000/api/signup
+Content-Type: application/json
+
+{
+    "email":"johndoe@gmail.com",
+    "firstName":"George",
+    "lastName":"bush",
+    "password":"12345"
+}
