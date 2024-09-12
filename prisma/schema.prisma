@@ -17,5 +17,10 @@ model User {
   id        Int      @id @default(autoincrement())
   createdAt DateTime @default(now())
   email     String   @unique
-  name      String?
+  name      String
+  password  String
+
+  @@map("users")
 }
+
+// hen_nam_jdkdsk  OneTwoThreeFour oneTwo
