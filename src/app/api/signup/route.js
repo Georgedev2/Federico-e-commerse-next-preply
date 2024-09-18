@@ -28,7 +28,7 @@ export const POST = async (req, res) => {
       return NextResponse.json(
         {
           message: 'successfully created',
-          user: newUser,
+          user: { email: newUser.email, name: newUser.name },
         },
         {
           status: 201,
@@ -39,7 +39,6 @@ export const POST = async (req, res) => {
       message: 'User already exist',
     });
   } catch (error) {
-
     return NextResponse.json(
       {
         message: error.message,
@@ -47,8 +46,4 @@ export const POST = async (req, res) => {
       { status: 500 }
     );
   }
-  // {
-  //     stack, message
-  // }
-  //   return NextResponse.json(body);
 };

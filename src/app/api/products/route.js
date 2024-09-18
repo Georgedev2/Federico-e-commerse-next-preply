@@ -1,6 +1,6 @@
 
 import { NextResponse } from 'next/server';
-import db from '../../dbConfig'
+
 const data = [
   {
     name: 'Iphone 18pro max',
